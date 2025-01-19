@@ -6,13 +6,13 @@ import type { FirebaseApp } from 'firebase/app'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const firebaseConfig = {
-    apiKey: "AIzaSyAHlzPqbaF52kjx1RQr9Fnt9O-edcj5G4g",
-    authDomain: "webodevi-a4067.firebaseapp.com",
-    projectId: "webodevi-a4067",
-    storageBucket: "webodevi-a4067.appspot.com",
-    messagingSenderId: "85919359114",
-    appId: "1:85919359114:web:da24da084741be4a6a8d73",
-    measurementId: "G-JNLXW2H2LT",
+    apiKey: "AIzaSyDSRTg1sfYP1C3yR5N6d1VVFWWiuwtpjek",
+    authDomain: "dolapweb-be614.firebaseapp.com",
+    projectId: "dolapweb-be614",
+    storageBucket: "dolapweb-be614.firebasestorage.app",
+    messagingSenderId: "826683114902",
+    appId: "1:826683114902:web:6b5352d21d0aa2de1489b7",
+    measurementId: "G-ZPK9QGW7CB"
   }
 
   // Firebase App'i başlat
