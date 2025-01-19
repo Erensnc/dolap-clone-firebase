@@ -1,0 +1,218 @@
+.q-btn--rectangle {
+  border-radius: 6px;
+}
+
+.q-pa-s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.q-col {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.card-item {
+  width: 100%;
+  max-width: 280px;
+  height: auto; 
+  box-sizing: border-box;
+}
+
+.carousel-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.q-pa {
+  width: 100%;
+  max-width: 1200px; 
+  height: auto;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.my-card {  
+  width: 100%;
+  max-width: 350px;
+  box-sizing: border-box;
+}
+
+.example-item {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px; 
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 2000px; 
+  min-height: 150px; 
+  box-sizing: border-box;
+}
+
+.review-image {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.review-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.review-title {
+  color: #333;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.review-text {
+  font-size: 16px; 
+  color: #555;
+  margin-top: 10px;
+}
+
+.review-list-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  background-image: url("https://cdn.dolap.com/web/images/bg-footer.jpg"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.google-apple-btns {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.footer-nav-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.footer-nav {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.nav-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.social-icons li a {
+  font-size: 20px;
+  color: #555;
+  text-decoration: none;
+}
+
+.social-icons li a:hover {
+  color: #007bff;
+}
+
+.wrap-menu {
+  display: flex;
+  flex-wrap: wrap; /* Öğelerin alt satıra inmesini sağlar */
+  gap: 16px; /* Öğeler arasında boşluk bırakır */
+  padding: 8px; /* Menü içi boşluk */
+}
+
+.wrap-menu q-item {
+  flex: 1 1 calc(33.33% - 16px); /* Genişlik yüzdesi ve boşluklar */
+  min-width: 120px; /* Minimum genişlik */
+  max-width: 200px; /* Maksimum genişlik */
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.book-image {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cart-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
